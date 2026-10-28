@@ -1,0 +1,200 @@
+[
+  {
+    "id": "niacinamide",
+    "name": "Niacinamide (vitamine B3)",
+    "aliases": ["niacinamide", "vitamine b3", "nicotinamide"],
+    "benefits": ["régule le sébum", "réduit l'apparence des pores", "atténue les rougeurs", "renforce la barrière cutanée", "aide contre les taches"],
+    "skin_types": ["grasse", "mixte", "normale", "sèche", "sensible"],
+    "concerns": ["acne", "pores", "taches", "rougeurs", "brillance"],
+    "how_to_use": "Sérum à 2-5 %, matin et/ou soir, après le nettoyage.",
+    "cautions": "Au-delà de 10 %, peut irriter certaines peaux sensibles.",
+    "level": "debutant"
+  },
+  {
+    "id": "salicylic_acid",
+    "name": "Acide salicylique (BHA)",
+    "aliases": ["acide salicylique", "bha", "salicylic acid"],
+    "benefits": ["désincruste les pores", "exfolie en douceur", "aide contre les points noirs et l'acné"],
+    "skin_types": ["grasse", "mixte"],
+    "concerns": ["acne", "pores", "points_noirs", "brillance"],
+    "how_to_use": "Lotion ou sérum à 0,5-2 %, le soir, 2 à 4 fois par semaine au début.",
+    "cautions": "Peut assécher. Déconseillé en cas d'allergie à l'aspirine ; demander l'avis d'un médecin pendant la grossesse.",
+    "level": "intermediaire"
+  },
+  {
+    "id": "retinol",
+    "name": "Rétinol (vitamine A)",
+    "aliases": ["rétinol", "retinol", "rétinoïde", "retinoide", "vitamine a", "retinal"],
+    "benefits": ["accélère le renouvellement cellulaire", "atténue rides et ridules", "aide contre l'acné et les marques"],
+    "skin_types": ["normale", "mixte", "grasse", "sèche"],
+    "concerns": ["rides", "acne", "taches", "texture"],
+    "how_to_use": "Le soir uniquement, commencer à 0,1-0,3 % deux fois par semaine, puis augmenter progressivement.",
+    "cautions": "Irritant au début (rougeurs, desquamation). Toujours une protection solaire le matin. Déconseillé pendant la grossesse et l'allaitement.",
+    "level": "avance"
+  },
+  {
+    "id": "vitamin_c",
+    "name": "Vitamine C (acide ascorbique)",
+    "aliases": ["vitamine c", "acide ascorbique", "vitamin c", "ascorbic acid"],
+    "benefits": ["antioxydant", "unifie le teint", "atténue les taches", "donne de l'éclat"],
+    "skin_types": ["normale", "mixte", "grasse", "sèche"],
+    "concerns": ["taches", "eclat", "rides"],
+    "how_to_use": "Sérum à 10-15 % le matin, sous la crème solaire.",
+    "cautions": "Les formes pures peuvent picoter ; conserver à l'abri de la lumière.",
+    "level": "intermediaire"
+  },
+  {
+    "id": "hyaluronic_acid",
+    "name": "Acide hyaluronique",
+    "aliases": ["acide hyaluronique", "hyaluronic acid", "hyaluronate de sodium"],
+    "benefits": ["hydrate en profondeur", "repulpe", "apaise la sensation de tiraillement"],
+    "skin_types": ["grasse", "mixte", "normale", "sèche", "sensible"],
+    "concerns": ["deshydratation", "rides"],
+    "how_to_use": "Sur peau légèrement humide, puis appliquer une crème pour sceller l'hydratation.",
+    "cautions": "Très bien toléré.",
+    "level": "debutant"
+  },
+  {
+    "id": "glycolic_acid",
+    "name": "Acide glycolique (AHA)",
+    "aliases": ["acide glycolique", "glycolic acid", "aha"],
+    "benefits": ["exfolie la surface", "lisse le grain de peau", "donne de l'éclat", "atténue les taches"],
+    "skin_types": ["normale", "mixte", "grasse"],
+    "concerns": ["texture", "eclat", "taches"],
+    "how_to_use": "Lotion à 5-10 %, le soir, 1 à 3 fois par semaine.",
+    "cautions": "Photosensibilisant : protection solaire obligatoire. À éviter sur peau sensible ou irritée.",
+    "level": "intermediaire"
+  },
+  {
+    "id": "lactic_acid",
+    "name": "Acide lactique (AHA doux)",
+    "aliases": ["acide lactique", "lactic acid"],
+    "benefits": ["exfolie en douceur", "hydrate", "donne de l'éclat"],
+    "skin_types": ["normale", "sèche", "mixte", "sensible"],
+    "concerns": ["texture", "eclat", "deshydratation"],
+    "how_to_use": "Lotion à 5 %, le soir, 1 à 2 fois par semaine.",
+    "cautions": "Photosensibilisant : protection solaire obligatoire.",
+    "level": "debutant"
+  },
+  {
+    "id": "benzoyl_peroxide",
+    "name": "Peroxyde de benzoyle",
+    "aliases": ["peroxyde de benzoyle", "benzoyl peroxide"],
+    "benefits": ["antibactérien contre l'acné inflammatoire"],
+    "skin_types": ["grasse", "mixte"],
+    "concerns": ["acne"],
+    "how_to_use": "Gel à 2,5-5 % en application locale sur les boutons, le soir.",
+    "cautions": "Asséchant, peut décolorer le linge. Un avis médical est conseillé pour l'acné modérée à sévère.",
+    "level": "intermediaire"
+  },
+  {
+    "id": "azelaic_acid",
+    "name": "Acide azélaïque",
+    "aliases": ["acide azélaïque", "acide azelaique", "azelaic acid"],
+    "benefits": ["aide contre l'acné", "atténue les rougeurs", "unifie le teint"],
+    "skin_types": ["grasse", "mixte", "normale", "sensible"],
+    "concerns": ["acne", "rougeurs", "taches"],
+    "how_to_use": "Crème à 10 %, une à deux fois par jour.",
+    "cautions": "Léger picotement possible au début. Compatible avec la grossesse selon de nombreux médecins, à confirmer avec le sien.",
+    "level": "intermediaire"
+  },
+  {
+    "id": "ceramides",
+    "name": "Céramides",
+    "aliases": ["céramides", "ceramides", "ceramide"],
+    "benefits": ["répare la barrière cutanée", "limite la perte d'eau", "apaise"],
+    "skin_types": ["sèche", "sensible", "normale", "mixte", "grasse"],
+    "concerns": ["deshydratation", "secheresse", "rougeurs"],
+    "how_to_use": "Dans la crème hydratante, matin et soir.",
+    "cautions": "Très bien tolérés.",
+    "level": "debutant"
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc (PCA ou gluconate)",
+    "aliases": ["zinc", "zinc pca"],
+    "benefits": ["régule le sébum", "apaise les imperfections"],
+    "skin_types": ["grasse", "mixte"],
+    "concerns": ["acne", "brillance"],
+    "how_to_use": "Souvent associé à la niacinamide dans un sérum, matin et/ou soir.",
+    "cautions": "Bien toléré.",
+    "level": "debutant"
+  },
+  {
+    "id": "centella",
+    "name": "Centella asiatica (cica)",
+    "aliases": ["centella", "cica", "centella asiatica", "madécassoside"],
+    "benefits": ["apaise", "aide à la réparation", "réduit les rougeurs"],
+    "skin_types": ["sensible", "sèche", "normale", "mixte", "grasse"],
+    "concerns": ["rougeurs", "secheresse"],
+    "how_to_use": "Sérum ou crème, matin et soir.",
+    "cautions": "Très bien tolérée.",
+    "level": "debutant"
+  },
+  {
+    "id": "panthenol",
+    "name": "Panthénol (provitamine B5)",
+    "aliases": ["panthénol", "panthenol", "vitamine b5"],
+    "benefits": ["apaise", "hydrate", "aide à la cicatrisation"],
+    "skin_types": ["sensible", "sèche", "normale", "mixte", "grasse"],
+    "concerns": ["rougeurs", "deshydratation", "secheresse"],
+    "how_to_use": "Dans une crème ou un baume, matin et soir.",
+    "cautions": "Très bien toléré.",
+    "level": "debutant"
+  },
+  {
+    "id": "spf",
+    "name": "Protection solaire (SPF 30 à 50)",
+    "aliases": ["spf", "crème solaire", "creme solaire", "écran solaire", "sunscreen", "protection solaire"],
+    "benefits": ["prévient les taches", "limite le vieillissement cutané", "protège des UV"],
+    "skin_types": ["grasse", "mixte", "normale", "sèche", "sensible"],
+    "concerns": ["taches", "rides", "eclat"],
+    "how_to_use": "Chaque matin en dernière étape, deux doigts de produit pour le visage, à renouveler toutes les 2 heures en extérieur.",
+    "cautions": "Indispensable avec les rétinoïdes et les acides exfoliants.",
+    "level": "debutant"
+  },
+  {
+    "id": "squalane",
+    "name": "Squalane",
+    "aliases": ["squalane"],
+    "benefits": ["nourrit sans graisser", "renforce la barrière cutanée"],
+    "skin_types": ["sèche", "normale", "mixte", "sensible"],
+    "concerns": ["secheresse", "deshydratation"],
+    "how_to_use": "Quelques gouttes en fin de routine du soir.",
+    "cautions": "Bien toléré, non comédogène.",
+    "level": "debutant"
+  },
+  {
+    "id": "urea",
+    "name": "Urée",
+    "aliases": ["urée", "uree", "urea"],
+    "benefits": ["hydrate", "adoucit les zones rugueuses"],
+    "skin_types": ["sèche", "normale"],
+    "concerns": ["secheresse", "texture"],
+    "how_to_use": "Crème à 5 % pour le visage, matin et soir.",
+    "cautions": "Peut picoter sur peau abîmée.",
+    "level": "debutant"
+  },
+  {
+    "id": "bakuchiol",
+    "name": "Bakuchiol",
+    "aliases": ["bakuchiol"],
+    "benefits": ["alternative douce au rétinol", "atténue les ridules", "unifie le teint"],
+    "skin_types": ["sensible", "normale", "sèche", "mixte"],
+    "concerns": ["rides", "texture", "taches"],
+    "how_to_use": "Sérum à 0,5-1 %, matin et/ou soir.",
+    "cautions": "Bien toléré ; efficacité moins documentée que le rétinol.",
+    "level": "debutant"
+  },
+  {
+    "id": "alpha_arbutin",
+    "name": "Alpha-arbutine",
+    "aliases": ["alpha arbutine", "alpha-arbutine", "arbutin", "alpha arbutin"],
+    "benefits": ["atténue les taches pigmentaires", "unifie le teint"],
+    "skin_types": ["grasse", "mixte", "normale", "sèche", "sensible"],
+    "concerns": ["taches"],
+    "how_to_use": "Sérum à 2 %, matin et/ou soir.",
+    "cautions": "Bien tolérée ; résultats visibles après plusieurs semaines.",
+    "level": "debutant"
+  }
+]
