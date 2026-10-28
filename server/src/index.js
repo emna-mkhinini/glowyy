@@ -52,6 +52,8 @@ export function createApp({ ai = null, model = MODEL } = {}) {
         error: status === 429
           ? "Trop de requêtes vers Gemini, réessaie dans une minute."
           : "Le service IA n'a pas répondu. Vérifie la clé API et le nom du modèle.",
+        // In development, show Gemini's own message to make the problem easy to find
+        details: process.env.NODE_ENV === "production" ? undefined : String(err.message ?? err).slice(0, 400),
       });
     }
   });

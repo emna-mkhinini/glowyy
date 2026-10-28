@@ -90,7 +90,7 @@ export default function App() {
         }),
       })
       const data = await res.json().catch(() => ({}))
-      if (!res.ok) throw new Error(data.error || 'Erreur du serveur')
+      if (!res.ok) throw new Error([data.error || 'Erreur du serveur', data.details].filter(Boolean).join(' — '))
       setMessages((m) => [...m, { role: 'assistant', text: data.reply, tools: data.toolsUsed ?? [] }])
     } catch (err) {
       setError(err.message || 'Connexion impossible au serveur.')
