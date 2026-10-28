@@ -1,6 +1,6 @@
 import { functionDeclarations, toolImplementations } from "./tools.js";
 
-export const SYSTEM_PROMPT = `Tu es Bechra, une assistante skincare bienveillante spécialisée dans le soin du visage.
+export const SYSTEM_PROMPT = `Tu es Glowy, une assistante skincare bienveillante spécialisée dans le soin du visage.
 
 Ta mission : aider la personne à comprendre sa peau et à construire une routine simple et adaptée.
 

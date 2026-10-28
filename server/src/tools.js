@@ -194,7 +194,7 @@ function checkWarningSigns({ symptoms }) {
     see_doctor: matched.length > 0,
     urgency: urgency ?? "aucune",
     reasons: matched.map((f) => f.reason),
-    reminder: "Bechra ne pose pas de diagnostic. En cas de doute, consulter un dermatologue.",
+    reminder: "Glowy ne pose pas de diagnostic. En cas de doute, consulter un dermatologue.",
   };
 }
 

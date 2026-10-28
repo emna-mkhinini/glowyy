@@ -1,10 +1,10 @@
-# Bechra — agent IA skincare
+# Glowy — agent IA skincare
 
-**Bechra** (« peau » en arabe) est une assistante IA qui aide à prendre soin de la peau du visage : routines matin et soir personnalisées, explication des ingrédients, compatibilité entre actifs, première observation à partir d'une photo, et orientation vers un dermatologue quand c'est nécessaire.
+**Glowy** est une assistante IA qui aide à prendre soin de la peau du visage : routines matin et soir personnalisées, explication des ingrédients, compatibilité entre actifs, première observation à partir d'une photo, et orientation vers un dermatologue quand c'est nécessaire.
 
-> Projet étudiant. Bechra donne des conseils généraux et ne remplace pas un avis médical.
+> Projet étudiant. Glowy donne des conseils généraux et ne remplace pas un avis médical.
 
-![Interface de Bechra](docs/screenshot.png)
+![Interface de Glowy](docs/screenshot.png)
 
 ## Fonctionnalités
 
@@ -37,7 +37,7 @@ React (Vite)  ──POST /api/chat──▶  Express (Node.js)  ──▶  Gemin
 ## Structure
 
 ```
-bechra/
+glowy/
 ├── client/                  # React + Vite
 │   └── src/App.jsx          # interface de chat, envoi de photo
 ├── server/                  # Node.js + Express
@@ -54,8 +54,8 @@ bechra/
 **Prérequis :** Node.js 20 ou plus, et une clé API Gemini gratuite sur [Google AI Studio](https://aistudio.google.com/apikey).
 
 ```bash
-git clone https://github.com/<ton-utilisateur>/bechra.git
-cd bechra
+git clone https://github.com/<ton-utilisateur>/glowy.git
+cd glowy
 npm run install:all
 cp server/.env.example server/.env   # puis colle ta clé dans GEMINI_API_KEY
 ```

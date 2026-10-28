@@ -68,5 +68,5 @@ export function createApp({ ai = null, model = MODEL } = {}) {
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const ai = process.env.GEMINI_API_KEY ? new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY }) : null;
   if (!ai) console.warn("⚠️  GEMINI_API_KEY absente : copie .env.example en .env et ajoute ta clé.");
-  createApp({ ai }).listen(PORT, () => console.log(`Bechra API sur http://localhost:${PORT} (modèle : ${MODEL})`));
+  createApp({ ai }).listen(PORT, () => console.log(`Glowy API sur http://localhost:${PORT} (modèle : ${MODEL})`));
 }

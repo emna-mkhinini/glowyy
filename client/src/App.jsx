@@ -119,7 +119,7 @@ export default function App() {
         <div className="brand">
           <DropIcon />
           <div>
-            <h1>Bechra</h1>
+            <h1>Glowy</h1>
             <p>Ton assistante skincare IA</p>
           </div>
         </div>
@@ -164,7 +164,7 @@ export default function App() {
               </li>
             ))}
             {loading && (
-              <li className="msg assistant typing" aria-label="Bechra écrit">
+              <li className="msg assistant typing" aria-label="Glowy écrit">
                 <span /><span /><span />
               </li>
             )}
@@ -202,7 +202,7 @@ export default function App() {
           </button>
         </form>
         <p className="disclaimer">
-          Bechra donne des conseils généraux et ne remplace pas un dermatologue. Les photos sont envoyées à Gemini pour l’analyse et ne sont pas enregistrées.
+          Glowy donne des conseils généraux et ne remplace pas un dermatologue. Les photos sont envoyées à Gemini pour l’analyse et ne sont pas enregistrées.
         </p>
       </footer>
     </div>

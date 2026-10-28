@@ -1,8 +1,8 @@
 {
-  "name": "bechra",
+  "name": "glowy",
   "version": "1.0.0",
   "private": true,
-  "description": "Bechra : agent IA skincare (React + Node.js + Gemini)",
+  "description": "Glowy : agent IA skincare (React + Node.js + Gemini)",
   "scripts": {
     "install:all": "npm install --prefix server && npm install --prefix client",
     "dev:server": "npm run dev --prefix server",
