@@ -1,8 +1,11 @@
-import "dotenv/config";
+import dotenv from "dotenv";
 import express from "express";
 import cors from "cors";
 import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
+
+// Load server/.env whatever folder the server is started from
+dotenv.config({ path: fileURLToPath(new URL("../.env", import.meta.url)) });
 import { GoogleGenAI } from "@google/genai";
 import { runAgent } from "./agent.js";
 
